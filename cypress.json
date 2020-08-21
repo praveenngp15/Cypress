@@ -1,0 +1,6 @@
+{ "chromeWebSecurity": false,
+  "defaultCommandTimeout":40000,
+    "env": {
+        "allureResultsPath": "cypress/results"
+        }
+}

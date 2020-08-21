@@ -1,0 +1,3295 @@
+{
+  "uid" : "7081faf037211ae9",
+  "name" : "Test Automation Assignment",
+  "fullName" : "Test Automation Assignment",
+  "historyId" : "8b1ab737df45452944560fa28ea232b0",
+  "time" : {
+    "start" : 1597843604535,
+    "stop" : 1597843631887,
+    "duration" : 27352
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://www.redbus.in/\")",
+      "time" : {
+        "start" : 1597843604559,
+        "stop" : 1597843606140,
+        "duration" : 1581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "viewport (\"1200\"; \"800\")",
+      "time" : {
+        "start" : 1597843606140,
+        "stop" : 1597843606145,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".manageHeaderLbl\")",
+      "time" : {
+        "start" : 1597843606145,
+        "stop" : 1597843606205,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843606205,
+        "stop" : 1597843606305,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "contains (\"Show My Ticket\")",
+      "time" : {
+        "start" : 1597843606305,
+        "stop" : 1597843606329,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843606329,
+        "stop" : 1597843606432,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1597843606431,
+        "stop" : 1597843606431,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#searchTicketTIN\")",
+      "time" : {
+        "start" : 1597843606432,
+        "stop" : 1597843608262,
+        "duration" : 1830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "#searchTicketTIN get",
+      "time" : {
+        "start" : 1597843608262,
+        "stop" : 1597843608262,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"27372\")",
+      "time" : {
+        "start" : 1597843608262,
+        "stop" : 1597843608465,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "typeTab",
+      "time" : {
+        "start" : 1597843608465,
+        "stop" : 1597843608506,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "focused",
+        "time" : {
+          "start" : 1597843608466,
+          "stop" : 1597843608475,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "trigger (\"keydown\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1597843608475,
+          "stop" : 1597843608506,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#searchTicketEmail\")",
+      "time" : {
+        "start" : 1597843608506,
+        "stop" : 1597843608513,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"babu@testleaf.com\")",
+      "time" : {
+        "start" : 1597843608513,
+        "stop" : 1597843608863,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "typeTab",
+      "time" : {
+        "start" : 1597843608863,
+        "stop" : 1597843608899,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "focused",
+        "time" : {
+          "start" : 1597843608863,
+          "stop" : 1597843608869,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "trigger (\"keydown\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1597843608869,
+          "stop" : 1597843608899,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#ticketSearch\")",
+      "time" : {
+        "start" : 1597843608899,
+        "stop" : 1597843608910,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843608910,
+        "stop" : 1597843609015,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://logs.redbus.com/logger/postErr?Agent=WEB_DIRECT&Message=Uncaught ReferenceError: valueEmail is not defined&URL=https://www.redbus.in/Home/PrintTicket&Line=1&Column=678&Error object={}&User Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/4.11.0 Chrome/80.0.3987.165 Electron/8.3.1 Safari/537.36&",
+      "time" : {
+        "start" : 1597843609015,
+        "stop" : 1597843609015,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1597843609015,
+        "stop" : 1597843609015,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1597843609015,
+        "stop" : 1597843609015,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#nf_error\")",
+      "time" : {
+        "start" : 1597843609015,
+        "stop" : 1597843609433,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "#nf_error get",
+      "time" : {
+        "start" : 1597843609433,
+        "stop" : 1597843609433,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Something went wrong, please try again later!\")",
+      "time" : {
+        "start" : 1597843609434,
+        "stop" : 1597843609438,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".gtm-busHire\")",
+      "time" : {
+        "start" : 1597843609438,
+        "stop" : 1597843609450,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843609451,
+        "stop" : 1597843609568,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1597843609568,
+        "stop" : 1597843609568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "request (\"https://www.redbus.in/bushire/api/common/source\")",
+      "time" : {
+        "start" : 1597843609568,
+        "stop" : 1597843612374,
+        "duration" : 2806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1597843612374,
+        "stop" : 1597843612374,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".SourceCity\")",
+      "time" : {
+        "start" : 1597843612375,
+        "stop" : 1597843612389,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843612389,
+        "stop" : 1597843612506,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843612506,
+        "stop" : 1597843612506,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1597843612506,
+        "stop" : 1597843613516,
+        "duration" : 1010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".SourceCity ~ .autocomplete_ul > li\")",
+      "time" : {
+        "start" : 1597843613516,
+        "stop" : 1597843613581,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 36,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"Length is 31\")",
+      "time" : {
+        "start" : 1597843613588,
+        "stop" : 1597843613591,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"The cities are matching.\")",
+      "time" : {
+        "start" : 1597843613591,
+        "stop" : 1597843613593,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".SourceCity\")",
+      "time" : {
+        "start" : 1597843613593,
+        "stop" : 1597843613607,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"Aurangabad\")",
+      "time" : {
+        "start" : 1597843613607,
+        "stop" : 1597843613908,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613906,
+        "stop" : 1597843613906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613906,
+        "stop" : 1597843613906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613906,
+        "stop" : 1597843613906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613906,
+        "stop" : 1597843613906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613906,
+        "stop" : 1597843613906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613907,
+        "stop" : 1597843613907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613907,
+        "stop" : 1597843613907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613907,
+        "stop" : 1597843613907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613907,
+        "stop" : 1597843613907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/source",
+      "time" : {
+        "start" : 1597843613907,
+        "stop" : 1597843613907,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "wait (\"5000\")",
+      "time" : {
+        "start" : 1597843613908,
+        "stop" : 1597843618918,
+        "duration" : 5010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".SourceCity ~ .autocomplete_ul > li\")",
+      "time" : {
+        "start" : 1597843618918,
+        "stop" : 1597843618936,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843618936,
+        "stop" : 1597843619051,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "request (\"https://www.redbus.in/bushire/api/common/pickup?queryString=Railway&city=Aurangabad\")",
+      "time" : {
+        "start" : 1597843619051,
+        "stop" : 1597843619237,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, India\")",
+      "time" : {
+        "start" : 1597843619238,
+        "stop" : 1597843619241,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".StartingPoint\")",
+      "time" : {
+        "start" : 1597843619241,
+        "stop" : 1597843619263,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843619263,
+        "stop" : 1597843619386,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, India\")",
+      "time" : {
+        "start" : 1597843619386,
+        "stop" : 1597843625210,
+        "duration" : 5824
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Ra&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625185,
+        "stop" : 1597843625185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Rai&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625186,
+        "stop" : 1597843625186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Rail&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625186,
+        "stop" : 1597843625186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railw&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625186,
+        "stop" : 1597843625186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railwa&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625186,
+        "stop" : 1597843625186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625187,
+        "stop" : 1597843625187,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625187,
+        "stop" : 1597843625187,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway S&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625187,
+        "stop" : 1597843625187,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway St&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625188,
+        "stop" : 1597843625188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Sta&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625188,
+        "stop" : 1597843625188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Stat&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625188,
+        "stop" : 1597843625188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Stati&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625189,
+        "stop" : 1597843625189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Statio&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625189,
+        "stop" : 1597843625189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625189,
+        "stop" : 1597843625189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625189,
+        "stop" : 1597843625189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station M&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625190,
+        "stop" : 1597843625190,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Ma&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625190,
+        "stop" : 1597843625190,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Mas&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625191,
+        "stop" : 1597843625191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masj&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625191,
+        "stop" : 1597843625191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masji&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625191,
+        "stop" : 1597843625191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625193,
+        "stop" : 1597843625193,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625194,
+        "stop" : 1597843625194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625194,
+        "stop" : 1597843625194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, D&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625194,
+        "stop" : 1597843625194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Do&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625194,
+        "stop" : 1597843625194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doc&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625195,
+        "stop" : 1597843625195,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doct&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625195,
+        "stop" : 1597843625195,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Docto&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625195,
+        "stop" : 1597843625195,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625195,
+        "stop" : 1597843625195,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625196,
+        "stop" : 1597843625196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor B&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625196,
+        "stop" : 1597843625196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bh&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625196,
+        "stop" : 1597843625196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bha&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625196,
+        "stop" : 1597843625196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhap&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625197,
+        "stop" : 1597843625197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapk&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625197,
+        "stop" : 1597843625197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapka&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625197,
+        "stop" : 1597843625197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625197,
+        "stop" : 1597843625197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625197,
+        "stop" : 1597843625197,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar M&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625198,
+        "stop" : 1597843625198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Ma&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625198,
+        "stop" : 1597843625198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Mar&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625198,
+        "stop" : 1597843625198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625198,
+        "stop" : 1597843625198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625198,
+        "stop" : 1597843625198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625199,
+        "stop" : 1597843625199,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, A&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625199,
+        "stop" : 1597843625199,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ay&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625199,
+        "stop" : 1597843625199,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayo&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625199,
+        "stop" : 1597843625199,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayod&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625200,
+        "stop" : 1597843625200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodh&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625200,
+        "stop" : 1597843625200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhy&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625200,
+        "stop" : 1597843625200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625200,
+        "stop" : 1597843625200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625201,
+        "stop" : 1597843625201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya N&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625201,
+        "stop" : 1597843625201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Na&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625201,
+        "stop" : 1597843625201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nag&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625201,
+        "stop" : 1597843625201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Naga&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625201,
+        "stop" : 1597843625201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagar&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625202,
+        "stop" : 1597843625202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625202,
+        "stop" : 1597843625202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625202,
+        "stop" : 1597843625202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625202,
+        "stop" : 1597843625202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, P&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625202,
+        "stop" : 1597843625202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Pa&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625203,
+        "stop" : 1597843625203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Pad&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625203,
+        "stop" : 1597843625203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Pada&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625203,
+        "stop" : 1597843625203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padam&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625203,
+        "stop" : 1597843625203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padamp&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625203,
+        "stop" : 1597843625203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampu&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampur&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, A&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625204,
+        "stop" : 1597843625204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Au&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625205,
+        "stop" : 1597843625205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aur&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625205,
+        "stop" : 1597843625205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aura&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625205,
+        "stop" : 1597843625205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Auran&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625205,
+        "stop" : 1597843625205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurang&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625205,
+        "stop" : 1597843625205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Auranga&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangab&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangaba&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, M&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625206,
+        "stop" : 1597843625206,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Ma&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625207,
+        "stop" : 1597843625207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Mah&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625207,
+        "stop" : 1597843625207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maha&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625207,
+        "stop" : 1597843625207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Mahar&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625207,
+        "stop" : 1597843625207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Mahara&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharas&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharash&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharasht&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtr&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra,&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625208,
+        "stop" : 1597843625208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, &city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, I&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, In&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, Ind&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, Indi&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/pickup?queryString=Railway Station Masjid, Doctor Bhapkar Marg, Ayodhya Nagari, Padampura, Aurangabad, Maharashtra, India&city=Aurangabad",
+      "time" : {
+        "start" : 1597843625209,
+        "stop" : 1597843625209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "typeTab",
+      "time" : {
+        "start" : 1597843625210,
+        "stop" : 1597843625369,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "focused",
+        "time" : {
+          "start" : 1597843625210,
+          "stop" : 1597843625243,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "trigger (\"keydown\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1597843625243,
+          "stop" : 1597843625369,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "request (\"https://www.redbus.in/bushire/api/common/destination?queryString=Airport\")",
+      "time" : {
+        "start" : 1597843625369,
+        "stop" : 1597843625577,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Airport, Dum Dum, Kolkata, West Bengal, India\")",
+      "time" : {
+        "start" : 1597843625578,
+        "stop" : 1597843625584,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".DestinationCity\")",
+      "time" : {
+        "start" : 1597843625584,
+        "stop" : 1597843625634,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"Airport, Dum Dum, Kolkata, West Bengal, India\")",
+      "time" : {
+        "start" : 1597843625634,
+        "stop" : 1597843630312,
+        "duration" : 4678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Ai",
+      "time" : {
+        "start" : 1597843630300,
+        "stop" : 1597843630300,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Air",
+      "time" : {
+        "start" : 1597843630301,
+        "stop" : 1597843630301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airp",
+      "time" : {
+        "start" : 1597843630301,
+        "stop" : 1597843630301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airpo",
+      "time" : {
+        "start" : 1597843630301,
+        "stop" : 1597843630301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airpor",
+      "time" : {
+        "start" : 1597843630301,
+        "stop" : 1597843630301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport",
+      "time" : {
+        "start" : 1597843630301,
+        "stop" : 1597843630301,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport,",
+      "time" : {
+        "start" : 1597843630302,
+        "stop" : 1597843630302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport,",
+      "time" : {
+        "start" : 1597843630302,
+        "stop" : 1597843630302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, D",
+      "time" : {
+        "start" : 1597843630302,
+        "stop" : 1597843630302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Du",
+      "time" : {
+        "start" : 1597843630302,
+        "stop" : 1597843630302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum",
+      "time" : {
+        "start" : 1597843630302,
+        "stop" : 1597843630302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum",
+      "time" : {
+        "start" : 1597843630303,
+        "stop" : 1597843630303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum D",
+      "time" : {
+        "start" : 1597843630303,
+        "stop" : 1597843630303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Du",
+      "time" : {
+        "start" : 1597843630303,
+        "stop" : 1597843630303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum",
+      "time" : {
+        "start" : 1597843630303,
+        "stop" : 1597843630303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum,",
+      "time" : {
+        "start" : 1597843630303,
+        "stop" : 1597843630303,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum,",
+      "time" : {
+        "start" : 1597843630304,
+        "stop" : 1597843630304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, K",
+      "time" : {
+        "start" : 1597843630304,
+        "stop" : 1597843630304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Ko",
+      "time" : {
+        "start" : 1597843630304,
+        "stop" : 1597843630304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kol",
+      "time" : {
+        "start" : 1597843630305,
+        "stop" : 1597843630305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolk",
+      "time" : {
+        "start" : 1597843630305,
+        "stop" : 1597843630305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolka",
+      "time" : {
+        "start" : 1597843630305,
+        "stop" : 1597843630305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkat",
+      "time" : {
+        "start" : 1597843630305,
+        "stop" : 1597843630305,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata",
+      "time" : {
+        "start" : 1597843630306,
+        "stop" : 1597843630306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata,",
+      "time" : {
+        "start" : 1597843630306,
+        "stop" : 1597843630306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata,",
+      "time" : {
+        "start" : 1597843630306,
+        "stop" : 1597843630306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, W",
+      "time" : {
+        "start" : 1597843630307,
+        "stop" : 1597843630307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, We",
+      "time" : {
+        "start" : 1597843630307,
+        "stop" : 1597843630307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, Wes",
+      "time" : {
+        "start" : 1597843630307,
+        "stop" : 1597843630307,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West",
+      "time" : {
+        "start" : 1597843630308,
+        "stop" : 1597843630308,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West",
+      "time" : {
+        "start" : 1597843630308,
+        "stop" : 1597843630308,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West B",
+      "time" : {
+        "start" : 1597843630308,
+        "stop" : 1597843630308,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Be",
+      "time" : {
+        "start" : 1597843630309,
+        "stop" : 1597843630309,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Ben",
+      "time" : {
+        "start" : 1597843630309,
+        "stop" : 1597843630309,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Beng",
+      "time" : {
+        "start" : 1597843630309,
+        "stop" : 1597843630309,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Benga",
+      "time" : {
+        "start" : 1597843630309,
+        "stop" : 1597843630309,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal",
+      "time" : {
+        "start" : 1597843630310,
+        "stop" : 1597843630310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal,",
+      "time" : {
+        "start" : 1597843630310,
+        "stop" : 1597843630310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal,",
+      "time" : {
+        "start" : 1597843630310,
+        "stop" : 1597843630310,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal, I",
+      "time" : {
+        "start" : 1597843630311,
+        "stop" : 1597843630311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal, In",
+      "time" : {
+        "start" : 1597843630311,
+        "stop" : 1597843630311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal, Ind",
+      "time" : {
+        "start" : 1597843630311,
+        "stop" : 1597843630311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal, Indi",
+      "time" : {
+        "start" : 1597843630312,
+        "stop" : 1597843630312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://www.redbus.in/bushire/api/common/destination?queryString=Airport, Dum Dum, Kolkata, West Bengal, India",
+      "time" : {
+        "start" : 1597843630312,
+        "stop" : 1597843630312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "typeTab",
+      "time" : {
+        "start" : 1597843630312,
+        "stop" : 1597843630543,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "focused",
+        "time" : {
+          "start" : 1597843630313,
+          "stop" : 1597843630362,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "trigger (\"keydown\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1597843630362,
+          "stop" : 1597843630543,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1597843630543,
+        "stop" : 1597843631585,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#hire_btn_container\")",
+      "time" : {
+        "start" : 1597843631586,
+        "stop" : 1597843631639,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1597843631639,
+        "stop" : 1597843631886,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 180,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Redbus Automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7081faf037211ae9.json",
+  "parameterValues" : [ ]
+}

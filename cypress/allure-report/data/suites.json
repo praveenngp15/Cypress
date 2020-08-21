@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Redbus Automation",
+    "children" : [ {
+      "name" : "Test Automation Assignment",
+      "uid" : "7081faf037211ae9",
+      "parentUid" : "e7cae1c7403387d6ada0f00edbdfc68e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597843604535,
+        "stop" : 1597843631887,
+        "duration" : 27352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e7cae1c7403387d6ada0f00edbdfc68e"
+  } ]
+}

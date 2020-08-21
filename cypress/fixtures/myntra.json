@@ -1,0 +1,12 @@
+[
+    {
+      "productName"  : "Sunglasses",
+      "brand":"Polaroid",
+      "productType":"Men Rectangle Sunglasses"
+    },
+    {
+      "productName" : "Bags",
+      "brand":"Handbags",
+      "productType":"Shoulder Bag"     
+    }
+]

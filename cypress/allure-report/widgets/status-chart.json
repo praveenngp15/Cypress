@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7081faf037211ae9",
+  "name" : "Test Automation Assignment",
+  "time" : {
+    "start" : 1597843604535,
+    "stop" : 1597843631887,
+    "duration" : 27352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
