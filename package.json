@@ -19,7 +19,8 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-test":"npx cypress run --browser=chrome -s '.\\cypress\\integration\\basics\\cypressWeek2\\uibank.loanSatus.spec.js' --record --key 0a56a925-c770-4efb-9d2f-daf491582fdc"
   },
   "keywords": [
     "cypress"
